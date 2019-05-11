@@ -18,7 +18,7 @@ namespace :db do
   end
 
   task :migrate => :environment do
-    student.create_table
+    Student.create_table
     end
 
     task :seed do
