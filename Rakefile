@@ -1,4 +1,4 @@
-namespacing :greeting do
+namespace :greeting do
 
   desc 'outputs hello to the terminal'
   task :hello do
@@ -11,7 +11,7 @@ namespacing :greeting do
 
 end
 
-namespacing :db do
+namespace :db do
 
   task :migrate => :environment do
     task :environment do
