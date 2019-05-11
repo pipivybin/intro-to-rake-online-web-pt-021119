@@ -17,7 +17,6 @@ namespacing :db do
     task :environment do
       require_relative './config/environment'
     end
-
     students.create_table
     end
 
@@ -27,6 +26,3 @@ namespacing :db do
 
 
   end
-
-
-end
